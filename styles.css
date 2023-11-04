@@ -1,0 +1,160 @@
+body {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    background-image: url("images/willow-leaf.jpg");
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 5px black;
+}
+h1{
+    font-size: 5vw;
+}
+
+h2{
+    font-size: 4vw;
+}
+h3{
+    font-size: 3vw;
+}
+h4{
+    font-size: 2vw;
+}
+#love-img {
+    width: 400px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fruit-section {
+    margin-top: 50px;
+}
+
+.fruit-title {
+    margin-bottom: 10px;
+}
+
+.fruit-hint {
+    margin-top: 0;
+}
+
+#fruit-img-cheers {
+    height: 200px;
+}
+
+.fruit-img {
+    margin: 20px auto;
+    width: 500px;
+    max-width: 800px;
+    aspect-ratio: 1.5/1;
+    border: 6px solid rgb(134, 175, 72);
+    border-radius: 10px;
+    background-image: url("images/fruits.jpg");
+    background-size: cover;
+}
+
+#fruit-img-love:hover {
+    background-size: 100% 100%;
+    background-image: url("images/love.gif");
+}
+
+#fruit-img-happy:hover {
+    background-size: 100% 100%;
+    background-image: url("images/happy.gif");
+}
+
+#fruit-img-peace:hover {
+    background-size: 100% 100%;
+    background-image: url("images/peace.gif");
+}
+
+#fruit-img-patience:hover {
+    background-size: 100% 100%;
+    background-image: url("images/patience.gif");
+}
+
+#fruit-img-kindness:hover {
+    background-size: 100% 100%;
+    background-image: url("images/kindness.gif");
+}
+
+#fruit-img-goodness:hover {
+    background-size: 100% 100%;
+    background-image: url("images/goodness.gif");
+}
+
+#fruit-img-faithfulness:hover {
+    background-size: 100% 100%;
+    background-image: url("images/faithfulness.gif");
+}
+
+#fruit-img-gentleness:hover {
+    background-size: 100% 100%;
+    background-image: url("images/gentleness.gif");
+}
+
+#fruit-img-self-control:hover {
+    background-size: 100% 100%;
+    background-image: url("images/self-control.gif");
+}
+
+#footer{
+    margin: 100px;
+    text-decoration: underline;
+    color:#EFB0C9;
+}
+.explanation-text{
+    margin: 0;
+}
+
+.fruit-section .explanation-text{
+    visibility: hidden;
+}
+.fruit-section:hover .explanation-text{
+    visibility: visible;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday fruit site? Take this HTML & CSS course.
+*/
